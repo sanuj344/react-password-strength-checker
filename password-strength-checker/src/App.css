@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  width: 360px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.bar {
+  height: 8px;
+  background: #ddd;
+  border-radius: 4px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+.strength-text {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.rules {
+  margin-top: 15px;
+}
+
+.rules p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.ok {
+  color: #2ecc71;
+}
+
+.fail {
+  color: #e74c3c;
+}
